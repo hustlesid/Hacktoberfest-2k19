@@ -7,6 +7,6 @@ scanf("%d",&n);
 long long int fact=1,mod=1000000007;
 for(i=1;i<n;i++)
 fact=((fact%mod)*(i%mod))%mod;
-printf("Factorial:%lld",fact);
+printf("Factorial of %d :%lld",n,fact);
 return 0;
 }
