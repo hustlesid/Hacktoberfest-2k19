@@ -1,5 +1,5 @@
 #inlcude<stdio.in>
 
 void main()
-{ printf("Heloo world");
+{ printf("helloworld.c");
 }
